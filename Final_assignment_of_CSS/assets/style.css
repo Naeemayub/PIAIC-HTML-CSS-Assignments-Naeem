@@ -1,0 +1,554 @@
+
+.container{
+    width:90%;
+    margin:auto;
+    box-shadow: 3px 3px 20px 20px gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+.h1g{
+    font-size: 40px;
+    color: green;
+    font-weight:bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+    
+    
+}
+.h1b{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font-weight: bolder;
+    
+
+    }
+
+#top{
+    background-color: black;
+   
+    color: white;
+    align-items: right;
+    padding: 10px 0px 10px 0px;
+    position:relative;
+}
+
+.contact{
+   
+    font-size: 20px;
+    position:absolute;
+    right:50px;
+    bottom:15px;
+}
+
+.contact>input{
+    background-color:rgb(108, 177, 44);
+    width: 110px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+}
+
+#menu{
+    position:relative;
+}
+
+#menu>ul{
+    position:absolute;
+    top: 30px;
+    right: 50px;
+    min-width: 800px;
+}
+#nav>li{
+    display: inline;
+    margin-left:10px;
+}
+
+#title{
+    height: 400px;
+    background-color: rgb(108, 177, 44);
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    position: relative;
+    z-index: 10;    
+}
+
+#title>#wavy{
+position: absolute;
+bottom: -700px;
+left: 500px;
+z-index: -1;
+
+}
+
+#title>h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgba(146, 201, 83);
+    font-size: 60px;
+    letter-spacing: .20em;
+    z-index: -11;
+}
+#title>input , #about>input{
+    background-color:orange;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 8px;
+    
+}
+
+
+#advantage{
+padding-top: 30px;
+  text-align: center;
+    height:500px ;
+    background-color: white;
+    z-index:  -1;
+}
+#advantage>ul{
+    position:relative;
+    
+
+}
+#advantage>ul>li{
+   display:inline-block;
+   margin-left:20px;
+   font-size: 12px;
+       
+
+}
+
+#advantage>ul>li>.adv1{
+    width: 150px;
+    height: 150px;
+        
+ 
+ }
+
+
+
+#about{
+    position:relative;
+    height: 500px;
+    
+    background-color:lightgray;
+    
+}
+ 
+
+
+
+#about>.about_text{
+    position:absolute;
+    padding-left: 50px;
+    font-size: 18px;
+    line-height: 1.5em;
+    left:5px;
+    width:600px;
+    padding-top: 80px;
+    text-align: left;
+}
+
+#about>input{
+    position:absolute;
+    bottom:30px;
+    left:50px;
+}
+
+
+#about>.h1b{
+    padding-top: 30px;
+    position: absolute;
+    padding-left: 720px;
+    z-index: 1;
+}
+
+#about>.h1g{
+    padding-top: 30px;
+    position: absolute;
+    padding-left: 570px;
+    z-index: 1;
+}
+
+#about>#aboutimage{
+    
+    padding-left: 750px;
+    position: absolute;
+        
+   
+    
+}
+#about>#aboutimage>img{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    padding-bottom: 10px; 
+    
+}
+
+
+#services{
+    position:relative;
+    height: 500px;
+}
+
+#services>h1 ,#OST{
+   text-align: center;
+  
+    
+}
+
+#graphics, #web, #Marketing,  #branding{
+   margin-top: 40px;
+   position: absolute;
+   padding-top: 5px;
+   border: 1px solid black;
+   width: 225px;
+   height:150px;
+   text-align: center;
+   background-color: lightgrey;
+   
+}
+
+#web{
+    position: absolute;
+    left:100px
+}
+#Marketing{
+    position: absolute;
+    left: 400px;
+   
+}
+#graphics{
+    position: absolute;
+    left: 700px;
+}
+#branding{
+    position: absolute;
+    left:1000px;
+}
+   
+
+#star{
+    position: relative;
+    z-index: 10;
+    left: 75px;
+    bottom:140px;
+    width: 80px;
+    height:80px;
+    border: 1px solid black;
+    background-color: orange;
+    border-radius: 100px;
+}
+
+#star2{
+    position: relative;
+    z-index: 10;
+    left: 88px;
+    top:-305px;
+    width: 40px;
+    height:40px;
+    font-size: 70px;
+    color: red;
+    
+    
+
+}
+
+
+
+#servtxt{
+    font-size: 12px;
+    position: absolute;
+    margin-top: -280px;
+    
+}
+
+
+
+.portfolio{
+    height:700px;
+    color:white;
+    position:relative;
+    padding-top:30px;
+    background-color:black;
+
+    
+}
+
+.portfolio>.h1g{
+    text-align: center;
+    position: relative;
+    padding-left: 520px;
+    
+    
+}
+
+
+.portfolio>.portfolio2, .portfolio> #portfolio3 {
+    text-align: center;
+    position: relative;
+    
+}
+.portfolio2>a{
+
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    color:white;
+    text-transform: uppercase;
+
+}
+
+#portfolio3>img{
+    align-items: center;    
+        
+    }
+
+
+    #process{
+        padding-top: 5px;
+        position: relative;
+        height: 400px;
+        text-align: center;
+        
+
+    }
+#process>#p_menu{
+    position: relative;
+}
+
+
+#p_ul{
+    position: absolute;
+   
+    
+}    
+
+
+#p_ul>li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-right:5px;
+    
+   
+    
+}
+    
+#p_ul>li>nav{
+    
+    position:relative;
+    width: 80px;
+    height: 80px;
+    border: 2px solid greenyellow;
+    border-radius: 100px;
+    left:30px;
+
+    
+    
+}
+
+
+#p_ul>li>nav>img{
+    padding-left:-20px;
+    
+    left:15px;
+    height: 50px;
+    top:15px;
+    
+    position: absolute;
+    
+ 
+}
+
+#p_ul>li>nav>nav{
+    
+    position:relative;
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 100px;
+    left:5px;
+    font-weight: bolder;
+
+    
+    
+}
+#p_ul>li>nav>nav{
+    padding-left:-20px;
+    
+    left:41px;
+   
+    top:-10px;
+    
+    position: absolute;
+    
+ 
+}
+    
+    #people{
+        height: 350px;
+        background-color: lightgray;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    #people>table{
+        text-align: left;
+        margin-left: 70px;
+        width:1200px;
+        height: 200px;
+
+        
+        
+    }
+
+
+    #people~img{
+        width: 10px;
+        height: 20px;
+    }
+
+#ptitle{
+    text-align: center;
+
+}
+    #people>table>tr{
+        text-align: left;
+    }
+    
+
+
+
+
+    #skills{
+    position: relative;
+    height: 500px;
+    text-align: center;
+    }
+
+
+   #skills>.piechart { 
+       display: inline-block;
+        margin-top: 100px; 
+        
+       margin-left: 100px;
+         width: 100px; 
+        height: 100px; 
+        border-radius: 100%; 
+        background-image: conic-gradient( 
+            pink 70deg,  
+            lightblue 0 235deg,  
+            orange 0); 
+    } 
+      
+    .piechart { 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    } 
+
+
+
+
+
+    
+    #project{
+        padding-top: 20px;
+        height: 300px;
+        background-color:green;
+        color: white;
+        text-align: center;
+        
+    }
+    
+    #ourcontact{
+    
+        height: 500px;
+        
+        position: relative;
+        padding-top: 7px;
+        text-align: center;
+        line-height: .75;
+    }
+
+    #ourcontact>.contact_detail{
+        position:absolute;
+        left: 450px;
+             
+        
+    }
+ 
+
+    #ourcontact>.contact_detail>p{
+      
+        display: inline;
+        margin-left: 30px;
+       
+        
+        
+    }
+    #footer{
+        height: 400px;
+        background-color: green;
+        position: relative;
+        
+        font-size: 20px;
+
+    }
+
+#panalinks, #panaserv, #panacontact{
+    list-style: none;
+}
+
+    #footer>#footpana{
+        width: 300px;
+        height: 400px;
+    position: absolute;
+    margin-left: 60px;
+    text-align: justify;
+    }
+
+
+    #footer>#footpana>img{
+        width:350px;
+        height:190px;
+    }    
+#footer>#footserv{
+    position: absolute;
+    margin-left: 600px;
+    line-height: 1em;
+}
+
+
+#footer>#footlink{
+    position:absolute;
+    margin-left: 875px;
+    line-height: 1em;
+
+}
+
+
+
+#footer>#footcontact{
+    position:absolute;
+    margin-left: 1150px;
+    line-height: 1em;
+}

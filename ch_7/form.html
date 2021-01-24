@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Chapter # 7 - Forms</h1>
+    
+    <form action="www.naeem.com" method="POST">
+        <fieldset >
+            <legend id="t1" >Your Details</legend>
+            <p >Name: <input type="text" name="uname" size= 30> </p>
+            <p>Email: <input type="email" name="uname" size= 30> </p>
+        </fieldset>
+        <fieldset>
+            <legend id="t2">Your Review </legend>
+        How did you hear about us:
+        <select name="source"> 
+                    <option value="google" checked="checked">Google</option>
+            <option value="Yahoo">Yahoo</option>
+            <option value="Facebook">Facebook</option>
+        </select> 
+        
+        <p>Would you visit Again: 
+        <input type="radio" Name="r1" value="yes" >yes
+        <input type="radio" name="r1" value="No"> No 
+        <input type="radio" name="r1" value="Maybe"> Maybe </p>
+        
+            Comments: <br />
+        
+        <textarea name="txt1" rows="5" cols="40"></textarea> <br />
+        <input type="checkbox" name="subscribe"> Sign me up for email udpates
+        </p>
+
+        <input type="submit"  value="Submit Review">
+    </fieldset>
+    
+    </form>
+
+</body>
+</html>
